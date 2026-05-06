@@ -14,5 +14,5 @@
 | **200 RPM N20 Motors** | 2 | $03.00 | [Link](https://colgroad.com/product/n20-mini-dc-gear-motor-200-600-800-1000-rpm-brand-new/) | 
 | **TCS34725 Color Sensor** | 1 | $03.58 | [Link](https://digilog.pk/products/tcs34725-color-sensor-module-pakistan) | 
 | **Hc-sr04 Ultrasonic Sensor** | 1 | $00.72 | [Link](https://epro.pk/product/ultrasonic-sensor-hc-sr04-in-pakistan/) | 
-| **** | 1 | $1.70 | [Link] | 
-| **Total Build Cost:** |  | **~$92.30** |
+| **Bearings** | 1 | $4.30 | [Link](https://epro.pk/product/cnc-v-slot-bearing-open-builds-wheel-pom-mr105zz-625zz-bore-5mm-passive-round-gear/) | 
+| **Total Build Cost:** |  | **~$72.30** |
