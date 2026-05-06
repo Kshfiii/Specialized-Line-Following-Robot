@@ -13,6 +13,6 @@
 | **11.1v 3300mAh Lipo Battery** | 1 | $24.00 | [Link](https://colgroad.com/product/zop-power-3s-11-1v-3300mah-25c-lipo-battery/) | 
 | **200 RPM N20 Motors** | 2 | $03.00 | [Link](https://colgroad.com/product/n20-mini-dc-gear-motor-200-600-800-1000-rpm-brand-new/) | 
 | **TCS34725 Color Sensor** | 1 | $03.58 | [Link](https://digilog.pk/products/tcs34725-color-sensor-module-pakistan) | 
-| **Hc-sr04 Ultrasonic Sensor** | 1 | $00.72 | [Link](https://digilog.pk/products/sr04-arduino-ultrasonic-sensor) | 
+| **Hc-sr04 Ultrasonic Sensor** | 1 | $00.72 | [Link](https://epro.pk/product/ultrasonic-sensor-hc-sr04-in-pakistan/) | 
 | **** | 1 | $1.70 | [Link] | 
 | **Total Build Cost:** |  | **~$92.30** |
