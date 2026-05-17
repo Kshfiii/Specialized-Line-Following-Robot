@@ -6,7 +6,7 @@
 ## Bill of Materials
 | Component | Quantity | Est. Cost (USD) | Purchase Links | 
 | :--- | :---: | :--- | :--- | 
-| **Raspberry Pi Pico**| 1 | $06.00 |[Link](https://epro.pk/product/raspberry-pi-pico-microcontroller-the-perfect-tool-for-learning-and-creating-available-now-on-elrctronics-pro/)| 
+| **STM32F401**| 1 | $03.55 |[Link](https://epro.pk/product/stm32f401-development-board/)| 
 | **TB6612FNG Motor Driver**| 1 | $02.00 | [Link](https://epro.pk/product/tb6612-drv8833-dual-motor-driver-module-1a-h-bridge-for-arduino-robotics/) | 
 | **JGA25-370 Motor kit** | 4 | $24.00 | [Link](https://colgroad.com/product/dc-gear-motor-with-encoder-280rpm-620rpm-ga25-370/) | 
 | **QTR 8C IR Sensor Array** | 2 | $04.59 | [Link](https://epro.pk/product/qtr-8rc-line-following-reflectance-ir-sensor-8-channel-line-following-line-tracking-array-module/)| 
@@ -15,4 +15,4 @@
 | **TCS34725 Color Sensor** | 1 | $03.58 | [Link](https://digilog.pk/products/tcs34725-color-sensor-module-pakistan) | 
 | **Hc-sr04 Ultrasonic Sensor** | 1 | $00.72 | [Link](https://epro.pk/product/ultrasonic-sensor-hc-sr04-in-pakistan/) | 
 | **Bearings** | 1 | $4.30 | [Link](https://epro.pk/product/cnc-v-slot-bearing-open-builds-wheel-pom-mr105zz-625zz-bore-5mm-passive-round-gear/) | 
-| **Total Build Cost:** |  | **~$72.30** |
+| **Total Build Cost:** |  | **~$70.00** |
