@@ -15,4 +15,5 @@
 | **TCS34725 Color Sensor** | 1 | $03.58 | [Link](https://digilog.pk/products/tcs34725-color-sensor-module-pakistan) | 
 | **Hc-sr04 Ultrasonic Sensor** | 1 | $00.72 | [Link](https://epro.pk/product/ultrasonic-sensor-hc-sr04-in-pakistan/) | 
 | **Bearings** | 1 | $4.30 | [Link](https://epro.pk/product/cnc-v-slot-bearing-open-builds-wheel-pom-mr105zz-625zz-bore-5mm-passive-round-gear/) | 
+| **Acrylic sheet** | 2 | $03.23 | [Link](https://www.daraz.pk/products/acrylic-sheet-2mm-size-12x12-2mm-thick-i391245284.html)| 
 | **Total Build Cost:** |  | **~$70.00** |
