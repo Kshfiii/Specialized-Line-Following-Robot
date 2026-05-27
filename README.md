@@ -1,5 +1,16 @@
-## Specialized-Line-Following-Robot
+# Specialized-Line-Following-Robot
+<!-- Put zine image here -->
+---
+This is a specialized line follower robot with a custom built 8 Sensor Array, using tcrt5000 IR sensors, for sensing the lines. In addition to basic line following, the robot has a specialized function for dispensing pellets into designated spots, at different heights, for which it uses a scissor lift along with a conveyor belt system, powered by high torque n20 motors. 
 
+## About
+
+<!-- This Project is powered by an 11.1v 3300 mah Li-po battery. It has 3 power rails; 11.1v, 5v, and <!- 3rd power line here ->, it uses two mini mp2307 to convert the voltages.-->
+### Robot function 
+ <img width="380" height="262" alt="image" src="https://github.com/user-attachments/assets/e9745772-ab76-4bc8-9be9-fd66cdfe5376" />
+ <img width="248" height="262" alt="image" src="https://github.com/user-attachments/assets/20356695-cae1-4f34-8d69-1ed962f46949" />
+
+The robot follows a 3cm wide black line on the arena floor, maneuvering intersections & Zig Zag patterns on the arena floor. At S1, a box of 7x7 inches supports the pellet slots, with one of four faces colored blue. the robot must go around the box to detect the blue colored face. Then, the robot must detect 4 colored strips, as either red or blue, situated just below each of the 4 slots. a pellet must be dispensed into the blue slot and the red slot should be skipped over. The strips are at 2 different heights, the color sensor is attached to 
 
 
 
