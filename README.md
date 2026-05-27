@@ -6,13 +6,19 @@ This is a specialized line follower robot with a custom built 8 Sensor Array, us
 ## About
 
 <!-- This Project is powered by an 11.1v 3300 mah Li-po battery. It has 3 power rails; 11.1v, 5v, and <!- 3rd power line here ->, it uses two mini mp2307 to convert the voltages.-->
-### Robot function 
+### 1. Robot function 
  <img width="380" height="262" alt="image" src="https://github.com/user-attachments/assets/e9745772-ab76-4bc8-9be9-fd66cdfe5376" />
  <img width="248" height="262" alt="image" src="https://github.com/user-attachments/assets/20356695-cae1-4f34-8d69-1ed962f46949" />
 
 The robot follows a 3cm wide black line on the arena floor, maneuvering intersections & Zig Zag patterns on the arena floor. At Storage rack 1 (S1), a box of 7x7 inches supports the storage rack, with one of four faces colored blue. the robot must go around the box to detect the blue colored face, where the slot openings are present in the form of a 2x2 grid, as seen in the image above. The robot must detect strips below the slots as either blue or red, placing the pellets into the slots marked blue, and skipping over the red ones. The robot then heads to Storage rack 2 (S2), repeating the same procedure. Then, the robot travels through the zig zag pattern and climbs a ramp to reach Storage rack 3 (S3), After sucessful dispensing into designated slots at S3, it parks itself beyond the red line. 
 
-### Mechanism
+### 2. Body
+<img width="1000" height="267" alt="Roboto (3)" src="https://github.com/user-attachments/assets/7e2908aa-9076-4d96-b203-d836954d52ec" />
+The body is made of a custom 3d printed Chasis, housing four GA25-370 Motors and a battery on top with the IR Sensor Array Mounted to the bottom, Alongside extruded platforms for inserts.
+
+### IR Sensor Array
+<!-- but ss of 3d model from kicad -->
+A custom built 8 channel analog IR sensor array bulit from tcrt5000 sensors. 
 
 ## Bill of Materials
 | Component | Quantity | Est. Cost (USD) | Purchase Links | 
