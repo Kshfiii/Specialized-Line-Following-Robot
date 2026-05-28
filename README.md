@@ -19,6 +19,9 @@ The body consists of three layers. The Base, the Middle, and the top most layer.
 The base is made of a custom 3d printed Chasis, housing four GA25-370 Motors and a battery on top with the IR Sensor Array Mounted to the bottom, Alongside extruded platforms for inserts.
 
 ##### 2.1.1 IR Sensor Array
+<img width="380" height="275" alt="image" src="https://github.com/user-attachments/assets/0b1731a8-4080-4cdc-bdb5-052d388ec796" />
+<img width="822" height="372" alt="image" src="https://github.com/user-attachments/assets/faf4975f-1645-4b11-bb69-3aa5aeb317d1" />
+
 <!-- add ss of 3d model from kicad & schematics-->
 A custom built 8 channel analog IR sensor array bulit from tcrt5000 sensors. It uses 4.7k & 1k resistors. It also utilizes capacitors & an led that lights up when a sensor is returning a reading, serving as a checker to see if it works. 
 
