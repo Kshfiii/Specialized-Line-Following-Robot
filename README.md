@@ -23,6 +23,8 @@ The base is made of a custom 3d printed Chasis, housing four GA25-370 Motors and
 A custom built 8 channel analog IR sensor array bulit from tcrt5000 sensors. It uses 4.7k & 1k resistors. It also utilizes capacitors & an led that lights up when a sensor is returning a reading, serving as a checker to see if it works. 
 
 #### 2.2 The Middle layer
+<img width="1000" height="267" alt="Roboto (1)" src="https://github.com/user-attachments/assets/ca88185c-c398-4899-afee-2318a3a32fdc" />
+
 <!-- add ss of middle layer from onshape, make a banner thing with lables in canva and put it here, layer has, acrylic base, spacers, pcb, hcsr04  -->
 The Middle layer is supported by a laser cut acrylic sheet which is screwed on top of the 3d printed chasis using spacers. It consists of a custom built PCB & spacers along with the HC-SR04 ultrasonic sensor for distance measurement. 
 
