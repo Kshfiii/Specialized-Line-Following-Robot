@@ -1,6 +1,6 @@
 # Specialized-Line-Following-Robot
-<!-- Put zine image here -->
----
+<img width="1000" height="350" alt="Github (1000 x 350 px)" src="https://github.com/user-attachments/assets/2505a1d1-2fc6-411a-897a-ef4096586d04" />
+
 This is a specialized line follower robot with a custom built 8 Sensor Array, using tcrt5000 IR sensors, for sensing the lines. In addition to basic line following, the robot has a specialized function for dispensing pellets into designated spots, at different heights, for which it uses a scissor lift along with a conveyor belt system, powered by high torque n20 motors. 
 
 ## About
@@ -9,6 +9,9 @@ This is a specialized line follower robot with a custom built 8 Sensor Array, us
 ### 1. Robot function 
  <img width="380" height="262" alt="image" src="https://github.com/user-attachments/assets/e9745772-ab76-4bc8-9be9-fd66cdfe5376" />
  <img width="248" height="262" alt="image" src="https://github.com/user-attachments/assets/20356695-cae1-4f34-8d69-1ed962f46949" />
+ <img width="350" height="262" alt="image" src="https://github.com/user-attachments/assets/8240cc0f-60f9-4f71-b6c4-30071f7a0a9e" />
+
+
 
 The robot follows a 3cm wide black line on the arena floor, maneuvering intersections & Zig Zag patterns on the arena floor. At Storage rack 1 (S1), a box of 7x7 inches supports the storage rack, with one of four faces colored blue. the robot must go around the box to detect the blue colored face, where the slot openings are present in the form of a 2x2 grid, as seen in the image above. The robot must detect strips below the slots as either blue or red, placing the pellets into the slots marked blue, and skipping over the red ones. The robot then heads to Storage rack 2 (S2), repeating the same procedure. Then, the robot travels through the zig zag pattern and climbs a ramp to reach Storage rack 3 (S3), After sucessful dispensing into designated slots at S3, it parks itself beyond the red line. 
 
@@ -19,8 +22,8 @@ The body consists of three layers. The Base, the Middle, and the top most layer.
 The base is made of a custom 3d printed Chasis, housing four GA25-370 Motors and a battery on top with the IR Sensor Array Mounted to the bottom, Alongside extruded platforms for inserts.
 
 ##### 2.1.1 IR Sensor Array
-<img width="380" height="275" alt="image" src="https://github.com/user-attachments/assets/0b1731a8-4080-4cdc-bdb5-052d388ec796" />
-<img width="822" height="372" alt="image" src="https://github.com/user-attachments/assets/faf4975f-1645-4b11-bb69-3aa5aeb317d1" />
+<img width="1000" height="267" alt="Roboto (3)" src="https://github.com/user-attachments/assets/69620467-f48e-4811-88d9-88ecb2af8762" />
+
 
 <!-- add ss of 3d model from kicad & schematics-->
 A custom built 8 channel analog IR sensor array bulit from tcrt5000 sensors. It uses 4.7k & 1k resistors. It also utilizes capacitors & an led that lights up when a sensor is returning a reading, serving as a checker to see if it works. 
@@ -32,7 +35,7 @@ A custom built 8 channel analog IR sensor array bulit from tcrt5000 sensors. It 
 The Middle layer is supported by a laser cut acrylic sheet which is screwed on top of the 3d printed chasis using spacers. It consists of a custom built PCB & spacers along with the HC-SR04 ultrasonic sensor for distance measurement. 
 
 ##### 2.2.1 PCB
-<!-- add ss of 3d model from kicad & schematics, make a banner thing with lables in canva and put it here -->
+<img width="1000" height="267" alt="Roboto (5)" src="https://github.com/user-attachments/assets/a5bfc7b2-3818-4c51-b98a-3ff3a30cca0e" />
 The pcb routes a 3300mah, 11.1v li-po battery pack through two mini MP2307 buck convertor, forming 3 power rails, 11.1v, 5v, and <!-- x volts --> which are used throughout the robot. The PCB houses the STM32F401 Microcontroller with two TB6612FNG motor driver breakout boards, one of which governs the motion of the GA25-370 motors and the other controls the N20 motors used for raising the scissor lift and moving the conveyor belt. It has headers for the IR sensors and the ultrasonic sensor.
 
 #### 2.3 The Top layer
