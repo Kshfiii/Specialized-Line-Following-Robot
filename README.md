@@ -1,7 +1,7 @@
 # Specialized-Line-Following-Robot
 <img width="1000" height="350" alt="Github (1000 x 350 px)" src="https://github.com/user-attachments/assets/2505a1d1-2fc6-411a-897a-ef4096586d04" />
 
-This is a specialized line follower robot with a custom built 8 Sensor Array, using tcrt5000 IR sensors, for sensing the lines. In addition to basic line following, the robot has a specialized function for dispensing pellets into designated spots, at different heights, for which it uses a scissor lift along with a conveyor belt system, powered by high torque n20 motors. 
+This is a specialized line follower robot with a custom built 8 Sensor Array, using tcrt5000 IR sensors, for sensing the lines. In addition to basic line following, the robot has a specialized function for dispensing pellets into designated spots, at different heights, for which it uses a scissor lift along with a conveyor belt system, powered by high torque n20 motors. It was made to compete in a robotics competition, NERC, and as a way to challenge myself to make a better LFR then the one I made before, which I think I have.
 
 ## About
 
