@@ -39,7 +39,7 @@ The Middle layer is supported by a laser cut acrylic sheet which is screwed on t
 The pcb routes a 3300mah, 11.1v li-po battery pack through two mini MP2307 buck convertor, forming 3 power rails, 11.1v, 5v, and <!-- x volts --> which are used throughout the robot. The PCB houses the STM32F401 Microcontroller with two TB6612FNG motor driver breakout boards, one of which governs the motion of the GA25-370 motors and the other controls the N20 motors used for raising the scissor lift and moving the conveyor belt. It has headers for the IR sensors and the ultrasonic sensor.
 
 #### 2.3 The Top layer
-<!-- add ss of top layer from onshape, one ss of just the scrylic sheet, then the scissor lift with acrylic sheet/ scissor lift+ conveyor belt + color sensing system, make a banner thing with lables in canva and put it here -->
+<img width="1000" height="267" alt="Roboto (8)" src="https://github.com/user-attachments/assets/ef8942d1-7bca-4ea0-8299-a159d0f4d139" />
 The top layer is also supported by a laser cut acrylic sheet which is screwed on top of the first acrylic sheet, separated by ~1.2in vertically, using spacers and nuts. It is home to the whole Pellet dispensing mechanism, The scissor lift, the Color sensing system and the conveyor belt.
 
 ##### 2.3.1 Scissor lift
