@@ -56,7 +56,7 @@ The conveyor belt is made of a 3d printed body. It uses a high torque N20 motor 
 
 
 
-## Assembly
+## Assembly & Building
 Go to [Onshape](https://cad.onshape.com/documents/1d0c454716dc1fb7909d87f9/w/77de741c5d18967e566ddcde/e/cc4241ede1b87dd95ef516c6?renderMode=0&uiState=6a198c15967ad61ab2482240) Each part of the Line follower robot has been organized into folders. All print parts are consolidated in the 'To Print' tab on the bottom left. If confusion persists, you may contact me at: kasshafemman@gmail.com. Now follow along for each section.
 
 ### Body
