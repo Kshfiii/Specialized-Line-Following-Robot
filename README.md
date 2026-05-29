@@ -54,8 +54,20 @@ The color sensing system consists of a Sg90 servo with a TCS34725 color sensor m
 <!-- add ss of 3d model from onshape with the pellets stored and dimensions, make a banner thing with lables in canva and put it here -->
 The conveyor belt is made of a 3d printed body. It uses a high torque N20 motor and bearings to rotate the pulleys, which drive the belt. The pellets sit on top of the belt, preloaded before the robot starts. 
 
+
+
 ## Assembly
-Go to [Onshape](https://cad.onshape.com/documents/1d0c454716dc1fb7909d87f9/w/77de741c5d18967e566ddcde/e/cc4241ede1b87dd95ef516c6?renderMode=0&uiState=6a198c15967ad61ab2482240) Each part of the Line follower robot has been organized into folders. All print parts are consolidated in the 'To Print' tab on the bottom left. If confusion persists, you may contact me at: kasshafemman@gmail.com. 
+Go to [Onshape](https://cad.onshape.com/documents/1d0c454716dc1fb7909d87f9/w/77de741c5d18967e566ddcde/e/cc4241ede1b87dd95ef516c6?renderMode=0&uiState=6a198c15967ad61ab2482240) Each part of the Line follower robot has been organized into folders. All print parts are consolidated in the 'To Print' tab on the bottom left. If confusion persists, you may contact me at: kasshafemman@gmail.com. Now follow along for each section.
+
+### Body
+Open the LFR Body Folder to see the CAD model. Now, using the brackets, fix the motors to the chasis. Put the wheels on the motor shaft. Put the insrts into the extruded square, then use it to screw Acrylic layer one. Put the PCB on this layer and the Ultrasonic sensor, within its bracket. Add a spacer and screw in Acrylic layer 2. Then put the scissor lift's extruded patterns (for the lack of a better word) on top of the complimentary slots on Acrylic layer 2.
+
+### Scissor Lift:
+Open Scissor lift folder for reference. Slide the scissor legs onto the shafts and put them in the place holders made on platform one. Use a string or pice of yarn, tying one end to the n20 motor and the other to the center of shaft 2. To prevent the shafts from sliding off, attach the knubs to the shaft's complementery ends. Now put pin 1 through one end of the hole in the scissor leg and pin 2 through the other, repeat this for all the arms to get the scissors pattern as shown in the assembly.
+
+### Conveyor Belt
+Open conveyor belt folder for reference. Put the supports into side plate 1 of the conveyor belt. Glue in bearings in the holes of both plates and put the pulleys inside the bearings. Now attach Side plate 2 on the other side. Put the conveyor belt onto the scissor lift, which had complementary holes to have it fixed in place.
+
 
 ## Component List
 1. STM32F401 (Blackpill) Microcontroller
