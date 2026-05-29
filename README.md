@@ -54,6 +54,22 @@ The color sensing system consists of a Sg90 servo with a TCS34725 color sensor m
 <!-- add ss of 3d model from onshape with the pellets stored and dimensions, make a banner thing with lables in canva and put it here -->
 The conveyor belt is made of a 3d printed body. It uses a high torque N20 motor and bearings to rotate the pulleys, which drive the belt. The pellets sit on top of the belt, preloaded before the robot starts. 
 
+## Assembly
+Go to [Onshape](https://cad.onshape.com/documents/1d0c454716dc1fb7909d87f9/w/77de741c5d18967e566ddcde/e/cc4241ede1b87dd95ef516c6?renderMode=0&uiState=6a198c15967ad61ab2482240) Each part of the Line follower robot has been organized into folders. All print parts are consolidated in the 'To Print' tab on the bottom left. If confusion persists, you may contact me at: kasshafemman@gmail.com. 
+
+## Component List
+1. STM32F401 (Blackpill) Microcontroller
+2. B6612FNG Motor Driver
+3. JGA25-370 Motor with wheels and Brackets
+4. TCRT5000 IR sensors
+5. Resistors and capacitors
+6. 11.1v 3300mAh Lipo Battery
+7. High torque N20 Motors
+8. TCS34725 Color Sensor
+9. Hc-sr04 Ultrasonic Sensor
+10. Bearings
+11. Acrylic sheet
+
 
 ## Bill of Materials
 | Component | Quantity | Est. Cost (USD) | Purchase Links | 
@@ -61,7 +77,7 @@ The conveyor belt is made of a 3d printed body. It uses a high torque N20 motor 
 | **STM32F401**| 1 | $03.55 |[Link](https://epro.pk/product/stm32f401-development-board/)| 
 | **TB6612FNG Motor Driver**| 1 | $02.00 | [Link](https://epro.pk/product/tb6612-drv8833-dual-motor-driver-module-1a-h-bridge-for-arduino-robotics/) | 
 | **JGA25-370 Motor kit** | 4 | $24.00 | [Link](https://colgroad.com/product/dc-gear-motor-with-encoder-280rpm-620rpm-ga25-370/) | 
-| **QTR 8C IR Sensor Array** | 2 | $04.59 | [Link](https://epro.pk/product/qtr-8rc-line-following-reflectance-ir-sensor-8-channel-line-following-line-tracking-array-module/)| 
+| **TCRT5000 IR sensors** | 10 | $01.80 | [Link](https://epro.pk/product/qtr-8rc-line-following-reflectance-ir-sensor-8-channel-line-following-line-tracking-array-module/)| 
 | **11.1v 3300mAh Lipo Battery** | 1 | $24.00 | [Link](https://colgroad.com/product/zop-power-3s-11-1v-3300mah-25c-lipo-battery/) | 
 | **200 RPM N20 Motors** | 2 | $03.00 | [Link](https://colgroad.com/product/n20-mini-dc-gear-motor-200-600-800-1000-rpm-brand-new/) | 
 | **TCS34725 Color Sensor** | 1 | $03.58 | [Link](https://digilog.pk/products/tcs34725-color-sensor-module-pakistan) | 
