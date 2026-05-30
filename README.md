@@ -68,6 +68,24 @@ Open Scissor lift folder for reference. Slide the scissor legs onto the shafts a
 ### Conveyor Belt
 Open conveyor belt folder for reference. Put the supports into side plate 1 of the conveyor belt. Glue in bearings in the holes of both plates and put the pulleys inside the bearings. Now attach Side plate 2 on the other side. Put the conveyor belt onto the scissor lift, which had complementary holes to have it fixed in place.
 
+## Robot Logic & Software
+It is written in C++ using the Arduino framework on an STM32F401 (Black Pill). The code is split into six files, 'drive', 'sensors', 'Lift', 'nav' (short for navigation', 'pellet dispension' (color sensing + conveyor belt), with each of them handling one specific robot fuction, plus an additional 'config.h' where I put the tunable values.
+
+Navigation is handled by the nav.cpp file, which uses a PID logic and values from the IR sensor array to stay on the line. The Wheel encodersb give additional feedback, measuring the distance traveled, and the HC-SR04 ultrasonic sensor confirms when the robot is close enough to a rack for dispensing.
+
+At each station, the robot scans the rack using the color sensing mechanism. The TCS34725 is aligned so that it faces the colored strip. It takes several readings at its position, so that it can detect the color of the strip reliably. If the strip is blue, the robot alligns itself with the rack and a pellet is dispensed. After that, the servo rotates 180°, sensing the other strip laterally. The process is repeated for both the lower and upper rows of the rack, the lift raises the sensor and dispenser to reach the upper row. Additionally, Color readings are normalized to reduce the effect of changing lighting conditions.
+
+
+The robot follows the black line, navigating to S1, dropping the pellets, Then repeating the same for S2, then climbs the ramp to S3, drops the pellets and parks itself beyond the finsih line. `nav.cpp` handles line following using a PID controller on the IR array's weighted error, with encoder ticks tracking distance from the last known point and the HC-SR04 confirming when the rack face is actually in range.
+
+The servicing routine is the same for all three units. The robot closes in on the rack, sweeps the color sensor servo left and right at the lower row, reads the TCS34725 five times per position, nudges left or right and ejects into whichever slots came back blue, then raises the lift and repeats for the upper row. Color detection normalizes against the clear channel so arena lighting doesn't throw it off.
+
+### Dependencies
+To work, the firmware needs:
+- STM32duino core
+- `Adafruit_TCS34725` via Arduino Library Manager
+- `Wire` and `Servo` ship with the core
+
 
 ## Component List
 1. STM32F401 (Blackpill) Microcontroller
