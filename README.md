@@ -104,14 +104,22 @@ To work, the firmware needs:
 ## Bill of Materials
 | Component | Quantity | Est. Cost (USD) | Purchase Links | 
 | :--- | :---: | :--- | :--- | 
-| **STM32F401**| 1 | $03.55 |[Link](https://epro.pk/product/stm32f401-development-board/)| 
-| **TB6612FNG Motor Driver**| 1 | $02.00 | [Link](https://epro.pk/product/tb6612-drv8833-dual-motor-driver-module-1a-h-bridge-for-arduino-robotics/) | 
+| **PLA Filament**| 1 | $16.55 |[Link](https://electrobes.com/product/exyz-pla-1-75mm-3d-printer-filament-1kg-roll/)| 
+| **11.1v 3300mAh Lipo Battery** | 1 | $24.00 | [Link](https://colgroad.com/product/zop-power-3s-11-1v-3300mah-25c-lipo-battery/) | 
 | **JGA25-370 Motor kit** | 4 | $48.00 | [Link](https://colgroad.com/product/dc-gear-motor-with-encoder-280rpm-620rpm-ga25-370-complete-kit/)| 
 | **TCRT5000 IR sensors** | 10 | $01.80 | [Link](https://epro.pk/product/qtr-8rc-line-following-reflectance-ir-sensor-8-channel-line-following-line-tracking-array-module/)| 
-| **11.1v 3300mAh Lipo Battery** | 1 | $24.00 | [Link](https://colgroad.com/product/zop-power-3s-11-1v-3300mah-25c-lipo-battery/) | 
+| **Resistors** | 2 | $00.50 |[Link](https://epro.pk/product/1206-smd-resistor-smd-1206-tolerance-5-smd-resistor-1206-pack-of-10-pcs-2/?attribute_pa_1206-resistance-value=4r7)| 
+| **SMD LED** | 2 | $00.75 |[Link](https://digilog.pk/products/100pcs-smd-0805-led-smt-led-light-diode?variant=49762233876758)| 
+| **Hc-sr04 Ultrasonic Sensor** | 1 | $00.72 | [Link](https://epro.pk/product/ultrasonic-sensor-hc-sr04-in-pakistan/) | 
+| **Standoff** | 2 | $00.25 |[Link](https://epro.pk/product/brass-standoff-spacer-screw-long-pillars-nut/)| 
+| **Mp2307 Buck convertor** | 2 | $00.90 |[Link](https://epro.pk/product/dc-to-dc-step-down-mini-360-buck-converter-module/)| 
+| **6 pin Jst-xh connector** | 4 | $00.14 |[Link](https://digilog.pk/products/6-pin-2-5mm-jst-xh-style-male-connector-in-pakistan)| 
+| **Xt60 Lipo battery connector** | 1 | $00.65 |[Link](https://epro.pk/product/xt60connectorsmalefemalepairinpakistan/)| 
+| **Sg90 Servo Motor** | 1 | $1.15 |[Link](https://epro.pk/product/tower-pro-sg90-9g-micro-servo-motor-with-accessories-blue/)| 
+| **STM32F401**| 1 | $03.55 |[Link](https://epro.pk/product/stm32f401-development-board/)| 
+| **TB6612FNG Motor Driver**| 1 | $02.00 | [Link](https://epro.pk/product/tb6612-drv8833-dual-motor-driver-module-1a-h-bridge-for-arduino-robotics/) | 
 | **200 RPM N20 Motors** | 2 | $03.00 | [Link](https://colgroad.com/product/n20-mini-dc-gear-motor-200-600-800-1000-rpm-brand-new/) | 
 | **TCS34725 Color Sensor** | 1 | $03.58 | [Link](https://digilog.pk/products/tcs34725-color-sensor-module-pakistan) | 
-| **Hc-sr04 Ultrasonic Sensor** | 1 | $00.72 | [Link](https://epro.pk/product/ultrasonic-sensor-hc-sr04-in-pakistan/) | 
 | **Bearings** | 1 | $4.30 | [Link](https://epro.pk/product/cnc-v-slot-bearing-open-builds-wheel-pom-mr105zz-625zz-bore-5mm-passive-round-gear/) | 
 | **Acrylic sheet** | 2 | $03.23 | [Link](https://www.daraz.pk/products/acrylic-sheet-2mm-size-12x12-2mm-thick-i391245284.html)| 
 | **Total Build Cost:** |  | **~$70.00** |
