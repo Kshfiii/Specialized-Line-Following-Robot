@@ -107,7 +107,7 @@ To work, the firmware needs:
 | **PLA Filament**| 1 | $16.55 |[Link](https://electrobes.com/product/exyz-pla-1-75mm-3d-printer-filament-1kg-roll/)| 
 | **11.1v 3300mAh Lipo Battery** | 1 | $24.00 | [Link](https://colgroad.com/product/zop-power-3s-11-1v-3300mah-25c-lipo-battery/) | 
 | **JGA25-370 Motor kit** | 4 | $48.00 | [Link](https://colgroad.com/product/dc-gear-motor-with-encoder-280rpm-620rpm-ga25-370-complete-kit/)| 
-| **TCRT5000 IR sensors** | 10 | $01.80 | [Link](https://epro.pk/product/qtr-8rc-line-following-reflectance-ir-sensor-8-channel-line-following-line-tracking-array-module/)| 
+| **TCRT5000 IR sensors** | 10 | $03.40 |[Link](https://epro.pk/product/tcrt5000-reflective-optical-ir-sensor-in-pakistan/)| 
 | **Resistors** | 2 | $00.50 |[Link](https://epro.pk/product/1206-smd-resistor-smd-1206-tolerance-5-smd-resistor-1206-pack-of-10-pcs-2/?attribute_pa_1206-resistance-value=4r7)| 
 | **SMD LED** | 2 | $00.75 |[Link](https://digilog.pk/products/100pcs-smd-0805-led-smt-led-light-diode?variant=49762233876758)| 
 | **Hc-sr04 Ultrasonic Sensor** | 1 | $00.72 | [Link](https://epro.pk/product/ultrasonic-sensor-hc-sr04-in-pakistan/) | 
